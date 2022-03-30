@@ -20,43 +20,93 @@ body {
 	sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(65, 157, 211);
+	font-family: 'Pokemon solid';
 }
 
 main {
-	border: 2px solid black;
-	margin: 50px;
+	padding: 20px 5vw 3vh 5vw;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	position: relative;
 	
-		.title--main {
-			top: 0;
-			left: 0;
-			font-family: 'Pokemon Solid';
-			font-size: 4rem;
-			color: #ffcc03;
-			letter-spacing: 0.8rem;
-			font-weight: 700;
+	.title--main {
+		top: 0;
+		left: 0;
+		font-size: 4rem;
+		color: #ffcc03;
+		letter-spacing: 0.8rem;
+		font-weight: 700;
+	}
+	.logo {
+		width: max(500px, 35vw);
+	}
+	.score {
+		width: max(360px, 55vw);
+		display: flex;
+		gap: 20px;
+		justify-content: space-around;
+		font-size: max(28px, 1.5vw);
+		line-height: 3rem;
+		letter-spacing: 0.3rem;
+		color: #ffcc03;
+		margin-bottom: 40px;
+		text-shadow: 2px 2px 5px black;
+		
+		p {
+			width: 180px;
 		}
+	}
 }
 
-// text-shadow: 
-// 7px 7px 0 blue,
-// 7px -7px 0 blue,
-// -7px 7px 0 blue,
-// -7px -7px 0 blue;
-
-
 .card {
-	border: 1px solid blue;
-	height: 215px;
-	width: 215px;
+	height: 180px;
+	width: 180px;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: #f3e48d;
+}
+
+.cards {
+	min-width: 460px;
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
-.cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 215px);
+button {
+	background-color: transparent;
+	height: 200px;
+	width: max(280px, 50vw);
+	border: none;
+	border-radius: 40px;
+	margin-top: 4vh;
+
+	font-family: 'Pokemon solid';
+	font-size: 6rem;
+	color: #ffcc03;
+	text-shadow: 10px 10px 15px black;
+	letter-spacing: 1rem;
+	line-height: 10rem;
+	cursor: pointer;
+	
+	&:hover {
+		animation-name: growShrink;
+		animation-iteration-count: infinite;
+		animation-duration: .5s;
+		animation-timing-function: ease-in-out;
+		animation-direction: alternate;
+	}
+
+	@keyframes growShrink {
+		0%   {transform: scale(1);}
+		100% {transform: scale(1.05);}
+	}
 }

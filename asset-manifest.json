@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.907c39e5.css",
+    "main.js": "/memory-card-game/static/js/main.b7693262.js",
+    "static/media/logo-bent.png": "/memory-card-game/static/media/logo-bent.d9efc6fe8599e12b3718.png",
+    "static/media/logo.png": "/memory-card-game/static/media/logo.49bfc76283ed8dc80ba1.png",
+    "static/media/0009.png": "/memory-card-game/static/media/0009.fd7749014ac2e869a578.png",
+    "static/media/0144.png": "/memory-card-game/static/media/0144.7747dcedfe1264a362d1.png",
+    "static/media/0023.png": "/memory-card-game/static/media/0023.5d55c0e4cb025bb46908.png",
+    "static/media/0006.png": "/memory-card-game/static/media/0006.3201caf51896552443f3.png",
+    "static/media/0034.png": "/memory-card-game/static/media/0034.185907f93a0be0f9fb58.png",
+    "static/media/0097.png": "/memory-card-game/static/media/0097.dc39509cc05a777cd322.png",
+    "static/media/0087.png": "/memory-card-game/static/media/0087.9e4bc03e7f111f8e5997.png",
+    "static/media/0028.png": "/memory-card-game/static/media/0028.f1570c41d7bd36ccb30f.png",
+    "static/media/0123.png": "/memory-card-game/static/media/0123.922fbd451255713d5493.png",
+    "static/media/Pokemon-Hollow.ttf": "/memory-card-game/static/media/Pokemon-Hollow.47f77ce9939c5330492b.ttf",
+    "static/media/0150.png": "/memory-card-game/static/media/0150.c01574eeab631d921b85.png",
+    "static/media/0141.png": "/memory-card-game/static/media/0141.dfd1017eb7d704aea184.png",
+    "static/media/0060.png": "/memory-card-game/static/media/0060.3d5a6bfdcbd8c4a53ac6.png",
+    "static/media/0072.png": "/memory-card-game/static/media/0072.ac49dfb265dc415526e1.png",
+    "static/media/0145.png": "/memory-card-game/static/media/0145.5ba936a9dc1a662bcc05.png",
+    "static/media/0079.png": "/memory-card-game/static/media/0079.ebab55e2843ccf88c805.png",
+    "static/media/0025.png": "/memory-card-game/static/media/0025.e311946611444e4b65a4.png",
+    "static/media/0146.png": "/memory-card-game/static/media/0146.0f651f20490ef5f2f265.png",
+    "static/media/0054.png": "/memory-card-game/static/media/0054.a199aaa11cd39a2ec09e.png",
+    "static/media/0093.png": "/memory-card-game/static/media/0093.d152698597f5ec0984ac.png",
+    "static/media/0011.png": "/memory-card-game/static/media/0011.5584b82b2a8fd5456861.png",
+    "static/media/0132.png": "/memory-card-game/static/media/0132.fb134b08443f3378be56.png",
+    "static/media/Pokemon-Solid.ttf": "/memory-card-game/static/media/Pokemon-Solid.5d60be1f7ff5fcc21fc1.ttf",
+    "index.html": "/memory-card-game/index.html",
+    "main.907c39e5.css.map": "/memory-card-game/static/css/main.907c39e5.css.map",
+    "main.b7693262.js.map": "/memory-card-game/static/js/main.b7693262.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.907c39e5.css",
+    "static/js/main.b7693262.js"
+  ]
+}
